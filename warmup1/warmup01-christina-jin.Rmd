@@ -1,0 +1,68 @@
+---
+title: "Warmup 01: Markdown Syntax"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+*Christina Jin*\
+*Stat 133*\
+*Feb. 3, 2019* <br>
+
+
+## Star Wars##
+![Kaz](https://vignette.wikia.nocookie.net/starwars/images/b/ba/Kaz_Resistance.png/revision/latest/scale-to-width-down/150?cb=20180903011341)<br>
+
+A famous quote by Kazuda Xiono:
+
+  > "Get ready to be impressed."
+
+Description | Value
+----------- | -------
+Species     | Human
+Gender      | Male 
+Eye Color   | Brown
+Skin Color  | Light 
+<br><br><br>
+
+## Cooking Recipe ##  
+
+![Buffalo Wings](https://smittenkitchendotcom.files.wordpress.com/2019/01/oven-baked-buffalo-wings.jpg?w=640)
+
+### Ingedients: ###
+- 1 to 4 pounds chicken wings
+- 1 1/2 to 2 teaspoons baking powder
+- 1 to 4 teaspoons kosher salt
+- 2 tablespoons hot sauce
+- 1 1/2 to 2 tablespoons unsalted butter per pound of wings
+
+### "Special" kitchen tools needed: ###
+- cooling rack
+- oven
+- tongs / spatula
+- saucepan
+
+### Steps of the recipe: ###
+1. Line a large baking sheet with foil and set an oven-safe cooling rack on top.
+2. Pat wings dry with a paper towel, and toss them with 1 1/2 teaspoons baking powder and 1 teaspoon kosher salt per pound of wings, until thoroughly coated.
+3. Arrange them on the rack and place in the fridge for 8 to 24 hours.
+4. When you are ready to bake, bake your wings for 20 minutes, flip them with tongs, bake them for another 15 minutes, flip them back over again, and then for 15 final minutes.
+5. When wings are browned and crisp, they are done. 
+6. Each with Buffalo wing sauce!
+
+There is not a special season of the year for it, and you can eat it whenever you want.\  
+
+One variation of the recipe is that we can substitue butter with the rendered fat from the wings for people with dairy restrictions. <br><br><br>
+
+## Euclidean Distance ##
+### Definition ###
+The **Euclidean distance** between points p and q is the length of the line segment connecting them \(( {\overline {\mathbf {p} \mathbf {q} }})\).
+
+In [Cartesian coordinates](https://en.wikipedia.org/wiki/Cartesian_coordinates), if **p** = (\(p_1\), \(p_2\),..., \(p_n\)) and **q** = (\(q_1\), \(q_2\),..., \(q_n\)) are two points in Euclidean *n*-space, then the distance (d) from **p** to **q**, or from **q** to **p** is given by the [Pythagorean formula](https://en.wikipedia.org/wiki/Pythagorean_theorem):
+  
+\({\displaystyle {\begin{aligned}d(\mathbf {p} ,\mathbf {q} )=d(\mathbf {q} ,\mathbf {p} )&={\sqrt {(q_{1}-p_{1})^{2}+(q_{2}-p_{2})^{2}+\cdots +(q_{n}-p_{n})^{2}}}\\[8pt]&={\sqrt {\sum _{i=1}^{n}(q_{i}-p_{i})^{2}}}.\end{aligned}}}\)
+
+The position of a point in a Euclidean *n*-space is a [Euclidean vector](https://en.wikipedia.org/wiki/Euclidean_vector). So, **p** and **q** may be represented as Euclidean vectors, starting from the origin of the space (initial point) with their tips (terminal points) ending at the two points. The [**Euclidean norm**](https://en.wikipedia.org/wiki/Euclidean_norm), or **Euclidean length**, or **magnitude** of a vector measures the length of the vector:
+\({\displaystyle \left\|\mathbf {p} \right\|={\sqrt {p_{1}^{2}+p_{2}^{2}+\cdots +p_{n}^{2}}}={\sqrt {\mathbf {p} \cdot \mathbf {p} }},} \)
+where the last expression involves the [dot product](https://en.wikipedia.org/wiki/Dot_product).
