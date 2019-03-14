@@ -6,7 +6,7 @@ Christina Jin
 Introduction:
 -------------
 
-“The Warriors won their fifth NBA Championship, setting the best postseason record in NBA history by going 16-1, ” recorded in Wikipedia. This report is for the purpose of analyzing why Golden State Warriors are able to make such a successful season and where their strength as a team is shown through the analysis of their playoff data in 2016. Such success is demonstrated by strong individual abilities of team players as well as a diversity of strength which contributes to their overall team work. \\
+“The Warriors won their fifth NBA Championship, setting the best postseason record in NBA history by going 16-1, ” recorded in Wikipedia. This report is for the purpose of analyzing why Golden State Warriors are able to make such a successful season and where their strength as a team is shown through the analysis of their playoff data in 2016. Such success is demonstrated by strong individual abilities of team players as well as a diversity of strength which contributes to their overall team work.
 
 Motivation:
 -----------
@@ -21,7 +21,10 @@ During the offseason, GSW acquired the free agent Kevin Durant, and the Warriors
 Data:
 -----
 
+Here is chart of the shots location in terms of the court of the five players we are analyzing here.
 <img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" />
+
+These are the three tables indicating the effective 2- and 3-points each player made. Sections and further analysis of these tables are below.
 
     ## # A tibble: 5 x 4
     ##   name           total  made perc_made
@@ -53,7 +56,50 @@ Data:
 Analysis:
 ---------
 
-Stephen Curry set his personal record of most three-pointers (13) made in a single game in the 2016 season. According to the scatterplot, Steph Curry had the largest percentage of making shots outside the 3-pointer line. As the point guard of the team, he is obviously taking full advantage of his strong mastery of basketball. Making a total of 687 total effective 3-pointer shots, which was the highest of the team, he scored around 40% of all the shots he made. Although such number was not a very high percentage of shots made. He undoubtedly gained the trust of the whole team and was able to make attempts without worrying about getting in or not. Such high attempts of 3-pointers were also a showcase of the emphasis the team had on its team members and the amount of space it gave the team players to showcase their strengths. Klay Thompson, coming up second on the total amount of 3-pointer attempts, was also a key 3-point scorer on the team, as the effective 3-point data has shown, has shown very high consistency in his ability of making 3-points, with the highest percentage out of all five players we examined in the dataset. Thirdly, Kevin Durant, who was acquired into GSW in the beginning of the season and proved his worth immediately after joining. He was originally known for his field goals, but also showed significant improvement throughout the season in his 3 pointers, climbing up to become the top three 3-pointer shooters on the team. In contrast to the shooting pattern of Steph Curry, we can see from the shot chart that his shots are fairly concentrated within the three-pointer lines. With his advantage in heights as a forward, he held up the team inside the field, in both offense (shown through data here) and defense. His contribution of the team owned his the MVP of the season at the end, despite his recent joining the team. Our next player, Draymond Green, carries a large amount of basketball virtues. From the shot chart included in the file, it is obvious to say that he is the most sober-minded player on the team. He was able to provide timely and purposeful passes and defenses to other players of the team. The shot chart shows that his plays are concentrated in positions and he was most comfortable with. Even though he might not be a volume scorer on the team, in fact, his importance on the team is often overlooked, he did not in fact enjoy such name recognition advantage of being the first five starters of GSW. Andre Iguodala, known as “The Sixth Man,” of the team, although not being part of the five starters, was undoubtedly a very important part of team. He was strong at leading a group of non-starters to defend off the opponents, and giving the starters enough time to rest. His importance is more significant in the aspect of teamwork. There could never be a successful team without someone like him who was able to contribute to the better good of the team without worrying about personal performance.
+**1. Stephen Curry:**
+
+    ## Selecting by perc_made
+
+    ## # A tibble: 2 x 4
+    ##   name          total  made perc_made
+    ##   <chr>         <int> <int>     <dbl>
+    ## 1 Klay Thompson   580   246     0.424
+    ## 2 Stephen Curry   687   280     0.408
+
+Stephen Curry set his personal record of most three-pointers (13) made in a single game in the 2016 season. According to the scatterplot, Steph Curry had the largest percentage of making shots outside the 3-pointer line. As the point guard of the team, he is obviously taking full advantage of his strong mastery of basketball. Making a total of **687 total effective 3-pointer shots**, which was the highest of the team, he **scored around 40% of all the shots he played**. Although such number was not a very high percentage of shots made. He undoubtedly gained the trust of the whole team and was able to make attempts without worrying about getting in or not. Such high attempts of 3-pointers were also a showcase of the emphasis the team had on its team members and the amount of space it gave the team players to showcase their strengths.
+**2. Klay Thompson:**
+
+    ## Selecting by perc_made
+
+    ## # A tibble: 1 x 4
+    ##   name          total  made perc_made
+    ##   <chr>         <int> <int>     <dbl>
+    ## 1 Klay Thompson   580   246     0.424
+
+Klay Thompson, coming up second on the total amount of 3-pointer attempts, was also a key 3-point scorer on the team, as the effective 3-point data has shown, has shown very high consistency in his ability of making 3-points, with the highest percentage (**42.4%**) out of all five players we examined in the dataset.
+**3. Kevin Durant:**
+
+    ## Selecting by perc_made
+
+    ## # A tibble: 1 x 4
+    ##   name         total  made perc_made
+    ##   <chr>        <int> <int>     <dbl>
+    ## 1 Kevin Durant   915   495     0.541
+
+Thirdly, Kevin Durant, who was acquired into GSW in the beginning of the season and proved his worth immediately after joining. He was originally known for his field goals, but also showed significant improvement throughout the season in his 3 pointers, climbing up to become the top three 3-pointer shooters on the team. In contrast to the shooting pattern of Steph Curry, we can see from the shot chart that his shots are fairly concentrated within the three-pointer lines. In fact, he has attempted and made the most number of 2-pointers on the team and remained his accuracy of all shots at **more than 50% (highest on the team)**. With his advantage in heights as a forward, he held up the team inside the field, in both offense (shown through data here) and defense. His contribution of the team owned his the MVP of the season at the end, despite his recent joining the team.
+**4. Draymond Green:**
+
+Our next player, Draymond Green, carries a large amount of basketball virtues. From the shot chart included in the file, it is obvious to say that he is the most sober-minded player on the team. He was able to provide timely and purposeful passes and defenses to other players of the team. The shot chart shows that his plays are concentrated in positions and he was most comfortable with. Even though he might not be a volume scorer on the team, in fact, his importance on the team is often overlooked, he did not in fact enjoy such name recognition advantage of being the first five starters of GSW.
+**5. Andre Iguodala:**
+
+    ## Selecting by perc_made
+
+    ## # A tibble: 1 x 4
+    ##   name           total  made perc_made
+    ##   <chr>          <int> <int>     <dbl>
+    ## 1 Andre Iguodala   210   134     0.638
+
+Andre Iguodala, known as “The Sixth Man,” of the team, although not being part of the five starters, was undoubtedly a very important figure of team. He was strong at leading a group of non-starters to defend off the opponents, and giving the starters enough time to rest. As shown from the 2pt effective shot rate table above, he **made 63.8% of all the 2-point shots he attempted**, which is the highest amongst all 5 players, thus proving his ability through precision of shots made. His importance is more significant in the aspect of teamwork. There could never be a successful team without someone like him who was able to contribute to the better good of the team without worrying about personal performance.
 
 Conclusion:
 -----------
@@ -63,4 +109,4 @@ It is the overall talents and strengths of individual team players that contribu
 References:
 -----------
 
-Wikipedia: <https://en.wikipedia.org/wiki/2016%E2%80%9317_Golden_State_Warriors_season#Regular_season>
+[Wikipedia](https://en.wikipedia.org/wiki/2016%E2%80%9317_Golden_State_Warriors_season#Regular_season)
