@@ -66,7 +66,8 @@ Analysis:
     ## 1 Klay Thompson   580   246     0.424
     ## 2 Stephen Curry   687   280     0.408
 
-Stephen Curry set his personal record of most three-pointers (13) made in a single game in the 2016 season. According to the scatterplot, Steph Curry had the largest percentage of making shots outside the 3-pointer line. As the point guard of the team, he is obviously taking full advantage of his strong mastery of basketball. Making a total of **687 total effective 3-pointer shots**, which was the highest of the team, he **scored around 40% of all the shots he played**. Although such number was not a very high percentage of shots made. He undoubtedly gained the trust of the whole team and was able to make attempts without worrying about getting in or not. Such high attempts of 3-pointers were also a showcase of the emphasis the team had on its team members and the amount of space it gave the team players to showcase their strengths.
+Stephen Curry set his personal record of most three-pointers (13) made in a single game in the 2016 season. According to the scatterplot, Steph Curry had the largest percentage of making shots outside the 3-pointer line. As the point guard of the team, he is obviously taking full advantage of his strong mastery of basketball. Making a total of **687 total effective 3-pointer shots**, which was the highest of the team, he **scored around 40% of all the shots he played**. Although such number was not a very high percentage of shots made. He undoubtedly gained the trust of the whole team and was able to make attempts without worrying about getting in or not. Such high attempts of 3-pointers were also a showcase of the emphasis the team had on its team members and the amount of space it gave the team players to showcase their strengths.\
+\
 **2. Klay Thompson:**
 
     ## Selecting by perc_made
@@ -76,7 +77,8 @@ Stephen Curry set his personal record of most three-pointers (13) made in a sing
     ##   <chr>         <int> <int>     <dbl>
     ## 1 Klay Thompson   580   246     0.424
 
-Klay Thompson, coming up second on the total amount of 3-pointer attempts, was also a key 3-point scorer on the team, as the effective 3-point data has shown, has shown very high consistency in his ability of making 3-points, with the highest percentage (**42.4%**) out of all five players we examined in the dataset.
+Klay Thompson, coming up second on the total amount of 3-pointer attempts, was also a key 3-point scorer on the team, as the effective 3-point data has shown, has shown very high consistency in his ability of making 3-points, with the highest percentage (**42.4%**) out of all five players we examined in the dataset.\
+\
 **3. Kevin Durant:**
 
     ## Selecting by perc_made
@@ -86,10 +88,12 @@ Klay Thompson, coming up second on the total amount of 3-pointer attempts, was a
     ##   <chr>        <int> <int>     <dbl>
     ## 1 Kevin Durant   915   495     0.541
 
-Thirdly, Kevin Durant, who was acquired into GSW in the beginning of the season and proved his worth immediately after joining. He was originally known for his field goals, but also showed significant improvement throughout the season in his 3 pointers, climbing up to become the top three 3-pointer shooters on the team. In contrast to the shooting pattern of Steph Curry, we can see from the shot chart that his shots are fairly concentrated within the three-pointer lines. In fact, he has attempted and made the most number of 2-pointers on the team and remained his accuracy of all shots at **more than 50% (highest on the team)**. With his advantage in heights as a forward, he held up the team inside the field, in both offense (shown through data here) and defense. His contribution of the team owned his the MVP of the season at the end, despite his recent joining the team.
+Thirdly, Kevin Durant, who was acquired into GSW in the beginning of the season and proved his worth immediately after joining. He was originally known for his field goals, but also showed significant improvement throughout the season in his 3 pointers, climbing up to become the top three 3-pointer shooters on the team. In contrast to the shooting pattern of Steph Curry, we can see from the shot chart that his shots are fairly concentrated within the three-pointer lines. In fact, he has attempted and made the most number of 2-pointers on the team and remained his accuracy of all shots at **more than 50% (highest on the team)**. With his advantage in heights as a forward, he held up the team inside the field, in both offense (shown through data here) and defense. His contribution of the team owned his the MVP of the season at the end, despite his recent joining the team.\
+\
 **4. Draymond Green:**
 
-Our next player, Draymond Green, carries a large amount of basketball virtues. From the shot chart included in the file, it is obvious to say that he is the most sober-minded player on the team. He was able to provide timely and purposeful passes and defenses to other players of the team. The shot chart shows that his plays are concentrated in positions and he was most comfortable with. Even though he might not be a volume scorer on the team, in fact, his importance on the team is often overlooked, he did not in fact enjoy such name recognition advantage of being the first five starters of GSW.
+Our next player, Draymond Green, carries a large amount of basketball virtues. From the shot chart included in the file, it is obvious to say that he is the most sober-minded player on the team. He was able to provide timely and purposeful passes and defenses to other players of the team. The shot chart shows that his plays are concentrated in positions and he was most comfortable with. Even though he might not be a volume scorer on the team, in fact, his importance on the team is often overlooked, he did not in fact enjoy such name recognition advantage of being the first five starters of GSW.\
+\
 **5. Andre Iguodala:**
 
     ## Selecting by perc_made
