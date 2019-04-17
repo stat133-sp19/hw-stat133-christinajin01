@@ -58,9 +58,10 @@ ui <- fluidPage(
       # Show a lineplot and a table
       mainPanel(
         titlePanel("Timelines"),
-        plotOutput("timelines", width = 600, height = "300"),
+        plotOutput("timelines", width = 800, height = 300),
         titlePanel("Balances"),
         verbatimTextOutput("balances")
+        #tags$head(tags$style("#balances{width: 600px;}"))
       )
    )
 )
