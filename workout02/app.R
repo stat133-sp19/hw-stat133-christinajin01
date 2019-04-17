@@ -31,8 +31,7 @@ ui <- fluidPage(
                     step = 1,
                     value = 10)
         ),
-        
-    fluidRow(
+      
         column(4,
         sliderInput("contrib", "Annual Contribution",
                     min = 0, 
@@ -58,12 +57,11 @@ ui <- fluidPage(
       # Show a lineplot and a table
       mainPanel(
         titlePanel("Timelines"),
-        plotOutput("timelines", width = 800, height = 300),
+        plotOutput("timelines", width = "150%"),
         titlePanel("Balances"),
         verbatimTextOutput("balances")
         #tags$head(tags$style("#balances{width: 600px;}"))
       )
-   )
 )
 
 # Define server logic required to draw the plot and table
