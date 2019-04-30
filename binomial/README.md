@@ -28,9 +28,9 @@ Install the development version from GitHub via the package `"devtools"`:
 devtools::install_github("stat133-sp19/hw-stat133-christinajin01/binomial")
 #> Downloading GitHub repo stat133-sp19/hw-stat133-christinajin01@master
 #>   
-   checking for file ‘/private/var/folders/zb/khv3qq2d4cgc50mtpfm1t2gw0000gn/T/RtmpvVH987/remotes185d5d356ffd/stat133-sp19-hw-stat133-christinajin01-e0cd08b/binomial/DESCRIPTION’ ...
+   checking for file ‘/private/var/folders/zb/khv3qq2d4cgc50mtpfm1t2gw0000gn/T/RtmpyiqNJa/remotes7ef4d67a512/stat133-sp19-hw-stat133-christinajin01-d0ad726/binomial/DESCRIPTION’ ...
   
-✔  checking for file ‘/private/var/folders/zb/khv3qq2d4cgc50mtpfm1t2gw0000gn/T/RtmpvVH987/remotes185d5d356ffd/stat133-sp19-hw-stat133-christinajin01-e0cd08b/binomial/DESCRIPTION’ (425ms)
+✔  checking for file ‘/private/var/folders/zb/khv3qq2d4cgc50mtpfm1t2gw0000gn/T/RtmpyiqNJa/remotes7ef4d67a512/stat133-sp19-hw-stat133-christinajin01-d0ad726/binomial/DESCRIPTION’
 #> 
   
 ─  preparing ‘binomial’:
@@ -57,7 +57,7 @@ devtools::install_github("stat133-sp19/hw-stat133-christinajin01/binomial")
 # install "binomial" (with vignettes)
 devtools::install_github("stat133-sp19/hw-stat133-christinajin01/binomial", 
                          build_vignettes = TRUE)
-#> Skipping install of 'binomial' from a github remote, the SHA1 (e0cd08bd) has not changed since last install.
+#> Skipping install of 'binomial' from a github remote, the SHA1 (d0ad7266) has not changed since last install.
 #>   Use `force = TRUE` to force installation
 ```
 
