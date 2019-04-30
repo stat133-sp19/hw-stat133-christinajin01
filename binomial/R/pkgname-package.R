@@ -1,0 +1,2 @@
+#' @name binomial
+#' @docType package

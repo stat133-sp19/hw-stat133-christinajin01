@@ -1,0 +1,73 @@
+---
+title: "Getting Started with Binomial Distribution"
+author: "Christina Jin"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to binomial distribution}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+library(binomial)
+```
+
+## Binomial Distribution
+The package `"binomial"` is an implementation for examining and summarizing statistics related to probabilities of number of successes in a fixed number of random independent and identically distributed trials. It also provides relevant visualizations of the binomial distribution.
+
+
+## Binomial Functions
+- `bin_choose()` calculates the number of combinations of `k` successes in `n` trials.
+```{r}
+bin_choose(n = 5, k = 2)
+```
+
+
+- `bin_probability()` calculates the probability of `success` successes in `trials` trials with probability = `prob`.
+```{r}
+bin_probability(success = 2, trials = 5, prob = 0.5)
+```
+
+
+- `bin_distribution()` creates a dataframe for the probability of each number of successes with probability = `prob` in `trials` trials.
+
+- `plot()` show a plot of a binomial probability distribution
+```{r}
+dis1 <- bin_distribution(trials = 5, prob = 0.5)
+dis1
+plot(dis1)
+```
+
+
+- `bin_cumulative()` creates a dataframe for cumulative probability of each success with probability = `prob` in `trials` trials.
+
+- `plot()` show a plot of a binomial cumulative distribution.
+```{r}
+dis2 <- bin_cumulative(trials = 5, prob = 0.5)
+dis2
+plot(dis2)
+```
+
+
+- `bin_variable()` generates a binomial random variable object.
+
+- `summary()` summarizes statistics of a binomial random variable.
+```{r}
+bin1 <- bin_variable(trials = 10, prob = 0.3)
+bin1
+binsum1 <- summary(bin1)
+binsum1
+```
+
+
+- Functions of measures: The following functions contain important statistics of a binomial distrbution for mean, variance, mode, skewness, and kurtosis.
+
+```{r}
+bin_mean(10, 0.3)
+bin_variance(10, 0.3)
+bin_mode(10, 0.3)
+bin_skewness(10, 0.3)
+bin_kurtosis(10, 0.3)
+```

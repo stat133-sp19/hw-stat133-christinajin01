@@ -1,0 +1,22 @@
+Package: binomial
+Type: Package
+Title: Binomial Distribution
+Version: 0.1.0
+Author@R: person("Christina", "Jin", email = "christina_jyt@berkeley.edu",
+                  role = c("aut", "cre"))
+Description: Provides functions to simulate binomial distributions. 
+Depends:
+    R (>= 3.1.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Collate:
+    auxfunctions.R
+    binomialfunctions.R
+    checkerfunctions.R
+    pkgname-package.R
+RoxygenNote: 6.1.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
