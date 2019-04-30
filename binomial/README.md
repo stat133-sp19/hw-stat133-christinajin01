@@ -26,39 +26,9 @@ Install the development version from GitHub via the package `"devtools"`:
 # install.packages("devtools") 
 # install "binomial" (without vignettes)
 devtools::install_github("stat133-sp19/hw-stat133-christinajin01/binomial")
-#> Downloading GitHub repo stat133-sp19/hw-stat133-christinajin01@master
-#>   
-   checking for file ‘/private/var/folders/zb/khv3qq2d4cgc50mtpfm1t2gw0000gn/T/RtmpyiqNJa/remotes7ef4d67a512/stat133-sp19-hw-stat133-christinajin01-d0ad726/binomial/DESCRIPTION’ ...
-  
-✔  checking for file ‘/private/var/folders/zb/khv3qq2d4cgc50mtpfm1t2gw0000gn/T/RtmpyiqNJa/remotes7ef4d67a512/stat133-sp19-hw-stat133-christinajin01-d0ad726/binomial/DESCRIPTION’
-#> 
-  
-─  preparing ‘binomial’:
-#> 
-  
-   checking DESCRIPTION meta-information ...
-  
-✔  checking DESCRIPTION meta-information
-#> 
-  
-─  checking for LF line-endings in source and make files and shell scripts
-#> 
-  
-─  checking for empty or unneeded directories
-#> 
-  
-─  building ‘binomial_0.1.0.tar.gz’
-#> 
-  
-   
-#> 
-#> Installing package into '/Users/Christina/Library/R/3.5/library'
-#> (as 'lib' is unspecified)
 # install "binomial" (with vignettes)
 devtools::install_github("stat133-sp19/hw-stat133-christinajin01/binomial", 
                          build_vignettes = TRUE)
-#> Skipping install of 'binomial' from a github remote, the SHA1 (d0ad7266) has not changed since last install.
-#>   Use `force = TRUE` to force installation
 ```
 
 Usage

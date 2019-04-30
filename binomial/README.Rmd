@@ -36,7 +36,7 @@ The [R](http://www.r-project.org/) package `"binomial"` is an implementation for
 
 Install the development version from GitHub via the package `"devtools"`:
 
-```{r}
+```{r, eval=FALSE}
 # development version from GitHub:
 # install.packages("devtools") 
 # install "binomial" (without vignettes)
